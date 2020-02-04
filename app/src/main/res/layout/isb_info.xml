@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".Information">
+
+    <ImageView
+        android:id="@+id/IV1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:padding="10dp"
+        android:src="@drawable/isb"
+        android:background="@drawable/tv_background"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Islamabad (/ɪsˈlɑːməˌbɑːd/; Urdu: اسلام آباد‎, Islāmābād) is the capital city of Pakistan, and is federally administered as part of the Islamabad Capital Territory. Built as a planned city in the 1960s to replace Karachi as Pakistan's capital, Islamabad is noted for its high standards of living,[7] safety,[8] and abundant greenery.[9]
+
+With a population of 1,014,825 as per the 2017 Census, Islamabad is the 9th largest city in Pakistan, while the larger Islamabad-Rawalpindi metropolitan area is the country's third largest with a population exceeding four million.[10][11][12] The city is the political seat of Pakistan and local government setup is run by the Islamabad Metropolitan Corporation, supported by the Capital Development Authority (CDA).
+
+"
+        android:layout_below="@id/IV1"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        android:layout_centerInParent="true"
+        android:padding="10dp"
+        android:textSize="19dp"/>
+
+</RelativeLayout>
